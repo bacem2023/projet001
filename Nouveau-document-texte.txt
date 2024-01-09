@@ -1,0 +1,14 @@
+//creation projet 
+echo "# bacem" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/WajdiSghaier/bacem.git
+git push -u origin main
+
+
+//mise a jour projet
+git add .
+git commit -m "mon message"
+git push -u origin main
